@@ -48,6 +48,9 @@ export const taskItemTemplate = html`
     <md-task-item mediaType="whatsApp" title="Mihael Varificantare" queue="IRV_quelle_11">
       <div>01:10:25</div>
     </md-task-item>
+    <md-task-item mediaType="whatsapp" title="Mihael Varificantare" queue="IRV_quelle_11">
+      <div>01:10:25</div>
+    </md-task-item>
     <md-task-item mediaType="chat" title="Mihael Varificantare" queue="IRV_quelle_11">
       <div>01:10:25</div>
     </md-task-item>

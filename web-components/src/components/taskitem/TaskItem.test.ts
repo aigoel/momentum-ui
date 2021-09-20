@@ -79,6 +79,20 @@ describe("TaskItem", () => {
     expect(type?.getAttribute("name")).toEqual("whatsApp_16");
   });
 
+  test("should render TaskItem Component for whatsapp", async () => {
+    const element: TaskItem.ELEMENT = await fixtureFactory(
+      "whatsapp",
+      "Mihael Varificantare",
+      "quelle_1",
+      "consulting",
+      0,
+      "",
+      false
+    );
+    const type = element.shadowRoot?.querySelector("md-icon");
+    expect(type?.getAttribute("name")).toEqual("whatsApp_16");
+  });
+
   test("should render correct type and status", async () => {
     const element: TaskItem.ELEMENT = await fixtureFactory(
       "chat",

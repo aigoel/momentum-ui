@@ -78,6 +78,12 @@ export namespace TaskItem {
               <md-icon name="whatsApp_16" color="white"></md-icon>
             </md-badge>
           `;
+        case "whatsapp":
+          return html`
+            <md-badge bgColor="#25D366" circle>
+              <md-icon name="whatsApp_16" color="white"></md-icon>
+            </md-badge>
+          `;
         default:
           return html`
             <slot name="task-type"></slot>
